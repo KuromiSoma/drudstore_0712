@@ -5,6 +5,6 @@ import org.apache.ibatis.annotations.Mapper;
 import org.drug.store.ptuketukelist.PtUketuke;
 
 @Mapper
-public class PtUketukeMapper {
-	public static List<PtUketuke> selectAll();
+public interface PtUketukeMapper {
+	List<PtUketuke> selectAll();
 }

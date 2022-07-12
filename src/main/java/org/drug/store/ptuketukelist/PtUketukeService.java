@@ -14,17 +14,8 @@ public class PtUketukeService {
 	PtUketukeMapper ptUketukeMapper;
 	
 	public List<PtUketuke> getUketukeList() {
-		List<PtUketuke> uketukeList = PtUketukeMapper.selectAll();
+		List<PtUketuke> uketukeList = ptUketukeMapper.selectAll();
 		return uketukeList;
 	}
 
-	public PtUketukeMapper getPtUketukeMapper() {
-		return ptUketukeMapper;
-	}
-
-	public void setPtUketukeMapper(PtUketukeMapper ptUketukeMapper) {
-		this.ptUketukeMapper = ptUketukeMapper;
-	}
-	
-	
 }
