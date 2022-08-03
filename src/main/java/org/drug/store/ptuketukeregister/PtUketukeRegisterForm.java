@@ -20,7 +20,6 @@ public class PtUketukeRegisterForm {
 	private String receiptDtMonth;
 	private String receiptDtDay;
 	private int[] mdNo;
-	
 	public String getPtName() {
 		return ptName;
 	}
@@ -117,6 +116,7 @@ public class PtUketukeRegisterForm {
 	public void setMdNo(int[] mdNo) {
 		this.mdNo = mdNo;
 	}
+	
 	
 	
 }

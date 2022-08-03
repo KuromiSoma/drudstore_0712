@@ -8,6 +8,7 @@ public class PtUketuke {
     private String receiptDate;
     private String hpName;
 	private String drName;
+	
 	public int getUkeNo() {
 		return ukeNo;
 	}

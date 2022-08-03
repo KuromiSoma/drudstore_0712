@@ -4,7 +4,7 @@ import lombok.Data;
 
 @Data
 public class PtUserForm {
-	private int ptNo;
+    private int ptNo;
     private String ptName;
     private String birthdayDt;
 	private int insuranceNo;
@@ -60,7 +60,14 @@ public class PtUserForm {
 	public void setExpDt(String expDt) {
 		this.expDt = expDt;
 	}
+	public Object getNm_add() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	public Object getNk_tel() {
+		// TODO Auto-generated method stub
+		return null;
+	}
     
     
-
 }

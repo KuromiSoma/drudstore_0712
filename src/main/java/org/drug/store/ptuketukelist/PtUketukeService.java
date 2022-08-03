@@ -10,6 +10,7 @@ import org.drug.store.mapper.PtUketukeMapper;
 @Service
 @Transactional
 public class PtUketukeService {
+	
 	@Autowired
 	PtUketukeMapper ptUketukeMapper;
 	
